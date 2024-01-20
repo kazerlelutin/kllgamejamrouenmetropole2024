@@ -2637,7 +2637,7 @@
             "id": "98b4bf39-21bc-45ba-a13c-b328199e2798",
             "symbol": "scene_4",
             "x": 330.7,
-            "y": 474.49047619047633,
+            "y": 473.6333333333335,
             "actors": [],
             "triggers": [],
             "script": [],
@@ -5499,26 +5499,6 @@
     ],
     "variables": [
         {
-            "id": "0",
-            "name": "_SCORE",
-            "symbol": "var_score_0"
-        },
-        {
-            "id": "1",
-            "name": "_TARGET_SCORE",
-            "symbol": "var_target_score_0"
-        },
-        {
-            "id": "2",
-            "name": "_CURRENT_DOOR",
-            "symbol": "var_current_door"
-        },
-        {
-            "id": "3",
-            "name": "_REST_SCORE",
-            "symbol": "var_rest_score"
-        },
-        {
             "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
             "name": "Spoken to gardener"
         },
@@ -5551,6 +5531,26 @@
             "id": "b624beb1-cc63-4529-9f9e-4ad68beb09cb__L0",
             "name": "Playing",
             "symbol": "var_playing"
+        },
+        {
+            "id": "0",
+            "name": "_SCORE",
+            "symbol": "var_score_0"
+        },
+        {
+            "id": "1",
+            "name": "_TARGET_SCORE",
+            "symbol": "var_target_score_0"
+        },
+        {
+            "id": "2",
+            "name": "_CURRENT_DOOR",
+            "symbol": "var_current_door"
+        },
+        {
+            "id": "3",
+            "name": "_REST_SCORE",
+            "symbol": "var_rest_score"
         }
     ],
     "engineFieldValues": [
@@ -5584,9 +5584,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1759,
-        "worldScrollY": 1068,
-        "zoom": 350,
+        "worldScrollX": 0,
+        "worldScrollY": 20,
+        "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
