@@ -1999,7 +1999,7 @@
                                     "Mais lequel ? "
                                 ],
                                 "avatarId": "",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "2202d2f8-ce84-4152-a5b7-26b3ed098ee8"
                         },
@@ -2008,17 +2008,17 @@
                             "args": {
                                 "variable": "L0",
                                 "items": 6,
-                                "option1": "Faulbert",
+                                "option1": "Flaubert",
                                 "option2": "G. le Conq.",
                                 "option3": "Boieldieu",
-                                "option4": "Jeane D'Arc",
+                                "option4": "Jeanne D'Arc",
                                 "option5": "Corneille",
                                 "option6": "Mathilde",
                                 "option7": "",
                                 "option8": "",
                                 "cancelOnB": true,
                                 "layout": "dialogue",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "9fb301f7-f4c7-43a4-93fe-367eefc1c2e0"
                         },
@@ -2873,6 +2873,13 @@
                         "speed": 7
                     },
                     "id": "34cceffa-da1b-4405-9753-18b9d61b7348"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "0c22265d-ee8a-4bc3-bf51-95e3b8cb1a3c"
+                    },
+                    "id": "18f662cb-3a80-4cbb-ad3b-c1da47bc7314"
                 }
             ],
             "playerHit1Script": [],
@@ -3530,8 +3537,8 @@
             "autoFadeSpeed": 1,
             "id": "98b4bf39-21bc-45ba-a13c-b328199e2798",
             "symbol": "scene_4",
-            "x": 335.0777777777779,
-            "y": 468.75543345543366,
+            "x": 332.4111111111112,
+            "y": 376.7554334554337,
             "actors": [
                 {
                     "name": "",
@@ -5324,7 +5331,7 @@
             "id": "191659f8-446b-46a3-9e49-c895384cfb85",
             "symbol": "scene_5",
             "x": 333.6250000000001,
-            "y": 694.3250000000002,
+            "y": 622.325,
             "actors": [
                 {
                     "name": "",
@@ -6768,8 +6775,8 @@
             "autoFadeSpeed": 1,
             "id": "78664e4b-e56e-4b3a-8f98-2eb5fe3981b7",
             "symbol": "scene_6",
-            "x": 335.5380952380956,
-            "y": 932.9380952380951,
+            "x": 334.2047619047623,
+            "y": 874.2714285714285,
             "actors": [
                 {
                     "name": "",
@@ -7255,8 +7262,8 @@
             "autoFadeSpeed": 1,
             "id": "7f27c9e0-e4ed-40d1-90ab-ed5366b8dbc1",
             "symbol": "scene_7",
-            "x": 327.84848484848493,
-            "y": 1164.4909090909098,
+            "x": 334.51515151515156,
+            "y": 1124.4909090909102,
             "actors": [
                 {
                     "name": "",
@@ -7757,8 +7764,8 @@
             "autoFadeSpeed": 1,
             "id": "5fe8cb00-8c80-4f30-ba9f-00c57cd11e12",
             "symbol": "scene_8",
-            "x": 327.7891547049439,
-            "y": 1397.790749601277,
+            "x": 331.7891547049438,
+            "y": 1377.7907496012776,
             "actors": [
                 {
                     "name": "",
@@ -9135,8 +9142,8 @@
             "autoFadeSpeed": 1,
             "id": "c607361a-0e3a-4672-89c7-e7691b9ec784",
             "symbol": "scene_9",
-            "x": 320.60000000000025,
-            "y": 1620.8888888888878,
+            "x": 325.9333333333335,
+            "y": 1604.888888888888,
             "actors": [
                 {
                     "name": "",
@@ -9152,6 +9159,19 @@
                     "collisionGroup": "1",
                     "symbol": "actor_11",
                     "script": [
+                        {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "1e409a6e-a78c-4668-90c5-44c786de46d0",
+                                "priority": "high",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": true,
+                                "effect": 0
+                            },
+                            "id": "be3e3da2-d1ba-4b84-870b-551b041ede31"
+                        },
                         {
                             "command": "EVENT_SET_VALUE",
                             "args": {
@@ -20454,6 +20474,14 @@
             "type": "uge"
         },
         {
+            "id": "0c22265d-ee8a-4bc3-bf51-95e3b8cb1a3c",
+            "name": "song_template",
+            "symbol": "song_song_template",
+            "filename": "song_template.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "symbol": "song_template",
@@ -20464,13 +20492,13 @@
     ],
     "sounds": [
         {
-            "id": "ca718340-6862-49ef-b052-0a086eda78f4",
-            "name": "Tronimal_Sound_Effects.sav",
-            "symbol": "sound_gbstudio_sfx_sav",
-            "filename": "Tronimal_Sound_Effects.sav",
-            "type": "fxhammer",
-            "inode": "9007199254782789",
-            "_v": 1661702554742
+            "id": "1e409a6e-a78c-4668-90c5-44c786de46d0",
+            "name": "portal.wav",
+            "symbol": "sound_portal_wav",
+            "filename": "portal.wav",
+            "type": "wav",
+            "inode": "5629499534823005",
+            "_v": 1705813228809
         }
     ],
     "fonts": [
@@ -20688,9 +20716,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 961,
-        "worldScrollY": 0,
-        "zoom": 175,
+        "worldScrollX": 704,
+        "worldScrollY": 4345,
+        "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
