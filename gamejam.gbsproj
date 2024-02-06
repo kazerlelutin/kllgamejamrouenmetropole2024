@@ -5508,7 +5508,41 @@
                     "y": 13
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "8553580e-742d-42ca-8c5f-fa3a3b87ca25",
+                    "x": 88,
+                    "y": 0,
+                    "symbol": "trigger_14",
+                    "width": 2,
+                    "height": 14,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Il n'y a rien\npour moi par là"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "3246322d-8f4b-440c-8f82-cf15b46d9314"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SET_DIRECTION",
+                            "args": {
+                                "actorId": "$self$",
+                                "direction": {
+                                    "type": "direction",
+                                    "value": "left"
+                                }
+                            },
+                            "id": "661587de-b54c-4297-b16b-f8a86ba5bce1"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -6879,7 +6913,41 @@
                     "y": 13
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "26772152-50a2-4ae5-9625-ae9ec495ba49",
+                    "x": 67,
+                    "y": 0,
+                    "symbol": "trigger_15",
+                    "width": 2,
+                    "height": 14,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Il n'y a rien\npour moi par là"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "d53c4508-9814-49e6-a731-c6e6f59bc3b1"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SET_DIRECTION",
+                            "args": {
+                                "actorId": "$self$",
+                                "direction": {
+                                    "type": "direction",
+                                    "value": "left"
+                                }
+                            },
+                            "id": "26835e9d-4383-44c0-a5c1-74be5be730e1"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -9250,7 +9318,41 @@
                     "y": 13
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "f0edeffa-0a74-4dc1-9f85-fa8d566ffa7c",
+                    "x": 65,
+                    "y": 0,
+                    "symbol": "trigger_16",
+                    "width": 2,
+                    "height": 14,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Il n'y a rien\npour moi par là"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "1c5b694c-8d78-4336-8088-d625425c129a"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SET_DIRECTION",
+                            "args": {
+                                "actorId": "$self$",
+                                "direction": {
+                                    "type": "direction",
+                                    "value": "left"
+                                }
+                            },
+                            "id": "77dbcbac-3b08-4dc3-bf7d-4c1f44495cdb"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -20724,9 +20826,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 704,
+        "worldScrollX": 0,
         "worldScrollY": 0,
-        "zoom": 325,
+        "zoom": 75,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",

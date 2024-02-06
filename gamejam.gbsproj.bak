@@ -446,7 +446,7 @@
                     "id": "82ba937b-2e7f-4044-a567-50f9c91be84d",
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "4f144f63-6005-4e99-b570-92a526201bd3",
+                        "musicId": "e13727f9-35a4-4070-a1b3-7a5001ea64b5",
                         "loop": false
                     }
                 },
@@ -5508,7 +5508,19 @@
                     "y": 13
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "8553580e-742d-42ca-8c5f-fa3a3b87ca25",
+                    "x": 87,
+                    "y": 0,
+                    "symbol": "trigger_14",
+                    "width": 1,
+                    "height": 14,
+                    "script": [],
+                    "leaveScript": []
+                }
+            ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -20474,6 +20486,14 @@
             "type": "uge"
         },
         {
+            "id": "e13727f9-35a4-4070-a1b3-7a5001ea64b5",
+            "name": "song_template 1",
+            "symbol": "song_song_template_1",
+            "filename": "song_template 1.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "0c22265d-ee8a-4bc3-bf51-95e3b8cb1a3c",
             "name": "song_template",
             "symbol": "song_song_template",
@@ -20716,8 +20736,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 704,
-        "worldScrollY": 4345,
+        "worldScrollX": 2338,
+        "worldScrollY": 2018,
         "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
